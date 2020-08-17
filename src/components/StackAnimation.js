@@ -54,12 +54,13 @@ export default class StackAnimation extends React.Component {
           <Gradient id="gradient-morph" />
           <g fill="url(#gradient-morph)">
             <Spring
+            config={{duration: 1000}}
               reset
               native
               from={{ t: 0 }}
               to={{ t: 1 }}
               onRest={this.goNext}>
-              {({ t }) => <animated.path d={t.interpolate(interpolator)} />}
+              {({ t }) => <animated.path d={t.interpolate(interpolator)}/>}
             </Spring>
           </g>
         </svg>

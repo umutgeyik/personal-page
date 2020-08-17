@@ -54,7 +54,7 @@ export default class StackAnimation extends React.Component {
           <Gradient id="gradient-morph" />
           <g fill="url(#gradient-morph)">
             <Spring
-            config={{duration: 1000}}
+            config={{delay: 350}}
               reset
               native
               from={{ t: 0 }}

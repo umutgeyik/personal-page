@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.g-card {
+  margin: 20px;
+}
+
+.g-card-image {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.g-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.g-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.g-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.footer {
+position:bottom;
+left:0;
+bottom:0;
+right:0;
+align-self:flex-end;
+}
+
+.home-title-text {
+  font-size: 50px;
+  margin: 0px;
+  font-family: 'Arial';
+  color: #485a6a;
+  
+}
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: clip;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trails-text {
+  position: relative;
+  width: 150%;
+  height: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 80px;
+  color: rgb(82, 84, 90);
+  font-size: 5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+
+
+
+

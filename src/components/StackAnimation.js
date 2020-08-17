@@ -1,7 +1,7 @@
 import React from 'react'
 import { Spring, animated } from 'react-spring/renderprops'
 import { interpolate } from 'flubber'
-import { RadialGradient as Gradient } from '@vx/gradient'
+import { LinearGradient as Gradient } from '@vx/gradient'
 
 
 const paths = [
@@ -50,7 +50,7 @@ export default class StackAnimation extends React.Component {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-        <svg width="180" viewBox="0 0 25 25">
+        <svg width="200" viewBox="0 0 25 25">
           <Gradient id="gradient-morph" />
           <g fill="url(#gradient-morph)">
             <Spring
